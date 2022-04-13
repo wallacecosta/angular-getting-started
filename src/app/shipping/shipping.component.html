@@ -1,0 +1,5 @@
+<h3>Tabela de Frete</h3>
+<div class="shipping-item" *ngFor="let frete of shippingCosts | async">
+    <span>{{ frete.type }}</span>
+    <span>{{ frete.price }}</span>
+</div>
