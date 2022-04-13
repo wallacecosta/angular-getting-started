@@ -44,5 +44,10 @@
     "protractor": "~7.0.0",
     "ts-node": "~10.1.0",
     "typescript": "~4.5.2"
-  }
+  },
+  "browserslist": [
+    "defaults",
+    "not safari 15.2-15.3",
+    "not ios_saf 15.2-15.3"
+  ]
 }
